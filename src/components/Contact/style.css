@@ -1,0 +1,30 @@
+a {
+  color: #77cc77;
+}
+
+.contact {
+  background-color: #77cc77;
+  color: black;
+  font-size: 1.5em;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-item {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: black;
+}
