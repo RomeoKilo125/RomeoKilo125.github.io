@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        {/* {this.props.items.map(e => <div>{e}</div>)} */}
+        <NavItem item={this.props.active} />
         {this.props.items.map(e => <NavItem item={e} />)}
       </div>
     )
