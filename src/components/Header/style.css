@@ -1,0 +1,23 @@
+.header {
+  background: #f0c987;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-item {
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
