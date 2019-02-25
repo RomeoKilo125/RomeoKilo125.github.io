@@ -4,7 +4,7 @@ import './style.css'
 class DisplayArea extends Component {
 render() {
   return (
-    <div></div>
+    <div className='display'>{JSON.stringify(this.props.item)}</div>
   )
 }
 }
