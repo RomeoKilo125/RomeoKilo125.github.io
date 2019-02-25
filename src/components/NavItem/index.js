@@ -4,7 +4,7 @@ import './style.css'
 class NavItem extends Component {
   render() {
     return (
-      <div>
+      <div className={this.props.className}>
         {this.props.item.name}
       </div>
     )

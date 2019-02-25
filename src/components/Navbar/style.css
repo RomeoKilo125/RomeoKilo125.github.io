@@ -1,0 +1,21 @@
+.nav {
+background: #6d98ba;
+font-family: inherit;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px 0;
+  border: solid black 1px;
+}
+
+.active-item {
+  background: #9aadbf;
+}

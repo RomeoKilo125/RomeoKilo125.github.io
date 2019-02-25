@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <Contact />
         <Header />
-        <Navbar items={this.state.items.filter( e => e.name !== this.state.activeItem.name)} active={this.state.activeItem}/>
+        <Navbar items={this.state.items.filter( e => e.name !== this.state.activeItem.name)} active={this.state.activeItem} about={About}/>
         <DisplayArea item={this.state.activeItem} />
       </div>
     );
