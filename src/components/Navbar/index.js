@@ -6,10 +6,13 @@ class Navbar extends Component {
   render() {
     return (
       <div className='nav navbar'>
-        <NavItem item={this.props.about} className='nav nav-item about-item' />
-        {this.props.items.map(e => <NavItem item={e} className='nav nav-item' />)}
-      </div>
-    )
+        <NavItem item={this.props.about} className='nav nav-item about-item'/>
+        {
+          this.props.items.map(e => <NavItem item={e} className={e === this.props.active
+            ? 'nav nav-item active-item'
+            : 'nav nav-item'}/>)
+        }
+      </div>)
   }
 }
 
