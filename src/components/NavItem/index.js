@@ -1,15 +1,12 @@
-import React, {Component} from 'react'
+import React from 'react'
 import './style.css'
 
-class NavItem extends Component {
-
-  render() {
+function NavItem(props) {
     return (
-      <div className={this.props.className}>
-        {this.props.item.name}
+      <div className={props.className} onClick={() => {props.handleClick(props.item)}}>
+          {props.item.name}
       </div>
     )
-  }
 }
 
 export default NavItem
