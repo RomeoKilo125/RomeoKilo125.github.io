@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import About from './data/about.json'
 import Projects from './data/projects.json'
@@ -11,8 +11,13 @@ import DisplayArea from './components/DisplayArea'
 
 class App extends Component {
   state = {
-    'items' : Projects,
-    'activeItem' : About
+    'items': Projects,
+    'activeItem': ''
+  }
+
+  componentDidMount() {
+    this.setState({items: Projects})
+    this.setState({activeItem: this.state.items[0]})
   }
 
   handleClick = (item) => {
@@ -21,21 +26,18 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <Contact />
-        <Header />
-        <Navbar>
-          <NavItem handleClick={this.handleClick} id="about-tag" item={About} className='nav nav-item about-item'/>
-          {
-            this.state.items.map(e => <NavItem handleClick={this.handleClick} id={this.state.items.indexOf(e)} item={e} className={e === this.state.activeItem
+    return (<div className="App">
+      <Contact/>
+      <Header/>
+      <Navbar>
+        <NavItem handleClick={this.handleClick} id="about-tag" item={About} className='nav nav-item about-item'/> {
+          this.state.items.map(e => <NavItem handleClick={this.handleClick} id={this.state.items.indexOf(e)} item={e} className={e === this.state.activeItem
               ? 'nav nav-item active-item'
               : 'nav nav-item'}/>)
-          }
-        </Navbar>
-        <DisplayArea item={this.state.activeItem} />
-      </div>
-    );
+        }
+      </Navbar>
+      <DisplayArea item={this.state.activeItem}/>
+    </div>);
   }
 }
 
