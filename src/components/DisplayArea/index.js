@@ -10,7 +10,7 @@ function DisplayArea(props) {
     </div>
     : <div className='display display-project'>
       <div className='project-name'>{item.name}</div>
-      <img alt='Project Thumbnail' className='project-thumbnail' src={item.thumbnail}></img>
+      <div className='project-thumbnail'><iframe title={item.name} width='560' height='315' src={item.thumbnail} frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
       <div className='project-description'>{item.description}</div>
       <div className='project-link'>Code: <a href={item.codeLink} > {item.codeLink}</a></div>
       {item.liveLink !== "" ? <div className='project-link'>Live: <a href={item.liveLink} > {item.liveLink}</a></div> :''}
