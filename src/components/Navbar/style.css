@@ -1,5 +1,6 @@
 .nav {
-background: #6d98ba;
+background: #edc79b;
+color: #000000;
 font-family: inherit;
 }
 
@@ -13,13 +14,13 @@ font-family: inherit;
   text-align: center;
   font-size: 1.5em;
   padding: 10px 0;
-  border: solid black 1px;
+  border: solid #000000 1px;
 }
 
 .active-item {
-  background: #9aadbf;
+  background: #bdc696;
 }
 
 .about-item {
-  background: #f7b1ab;
+  /* background: #7f7979; */
 }

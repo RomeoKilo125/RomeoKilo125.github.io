@@ -1,4 +1,9 @@
+.project-link a {
+  color: #edc79b;
+}
+
 .display {
-  color: #fbba72;
+  background: #514e4e;
+  color: #c1bdb3;
   font-size: 1.5em;
 }
