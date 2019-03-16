@@ -17,7 +17,7 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({items: Projects})
-    this.setState({activeItem: this.state.items[0]})
+    this.setState({activeItem: this.state.items[7]})
   }
 
   handleClick = (item) => {

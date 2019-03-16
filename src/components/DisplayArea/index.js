@@ -12,7 +12,7 @@ function DisplayArea(props) {
       <div className='project-name'>{item.name}</div>
       <div className='project-thumbnail'>
         <video controls>
-          <source src='../../data/videos/bamazon_demo.mp4' type='video/mp4'></source>
+          <source src={process.env.PUBLIC_URL + '/' + item.thumbnail} type='video/mp4'></source>
         </video>
       </div>
       <div className='project-description'>{item.description}</div>
