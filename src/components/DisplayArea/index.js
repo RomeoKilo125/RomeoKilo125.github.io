@@ -10,10 +10,24 @@ function DisplayArea(props) {
     </div>
     : <div className='display display-project'>
       <div className='project-name'>{item.name}</div>
-      <div className='project-thumbnail'><iframe title={item.name} width='560' height='315' src={item.thumbnail} frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+      <div className='project-thumbnail'>
+        <video controls>
+          <source src='../../data/videos/bamazon_demo.mp4' type='video/mp4'></source>
+        </video>
+      </div>
       <div className='project-description'>{item.description}</div>
-      <div className='project-link'>Code: <a href={item.codeLink} > {item.codeLink}</a></div>
-      {item.liveLink !== "" ? <div className='project-link'>Live: <a href={item.liveLink} > {item.liveLink}</a></div> :''}
+      <div className='project-link'>Code:
+        <a href={item.codeLink}>
+          {item.codeLink}</a>
+      </div>
+      {
+        item.liveLink !== ""
+          ? <div className='project-link'>Live:
+              <a href={item.liveLink}>
+                {item.liveLink}</a>
+            </div>
+          : ''
+      }
     </div>)
 }
 
