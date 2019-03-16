@@ -6,13 +6,16 @@ function DisplayArea(props) {
   return (
     item.name === 'About'
     ? <div className='display display-about'>
-      Bio: {item.bio}
+      <div classname='profilePic'>
+        <img className='about-img' alt='Profile Pic' src={process.env.PUBLIC_URL + '/media/' + item.pic} />
+      </div>
+      <div className='bio'>{item.bio}</div>
     </div>
     : <div className='display display-project'>
       <div className='project-name'>{item.name}</div>
       <div className='project-thumbnail'>
         <video controls>
-          <source src={process.env.PUBLIC_URL + '/' + item.thumbnail} type='video/mp4'></source>
+          <source src={process.env.PUBLIC_URL + '/media/' + item.thumbnail} type='video/mp4'></source>
         </video>
       </div>
       <div className='project-description'>{item.description}</div>
