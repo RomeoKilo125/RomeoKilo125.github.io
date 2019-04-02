@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({activeItem: About})
+    this.setState({activeItem: Projects[0]})
   }
 
   handleClick = (item) => {
@@ -32,7 +32,7 @@ class App extends Component {
         <NavItem handleClick={this.handleClick} id="about-tag" item={About} className={About === this.state.activeItem
           ? 'nav nav-item about-item active-item'
           : 'nav nav-item about-item'}/> {
-            this.state.items.map(e => <NavItem handleClick={this.handleClick} id={this.state.items.indexOf(e)} item={e} className={e === this.state.activeItem
+            this.state.items.map(e => <NavItem handleClick={this.handleClick} key={this.state.items.indexOf(e)} item={e} className={e === this.state.activeItem
               ? 'nav nav-item active-item'
               : 'nav nav-item'}/>)
         }
