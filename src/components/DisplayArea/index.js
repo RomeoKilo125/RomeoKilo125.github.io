@@ -18,16 +18,15 @@ class DisplayArea extends Component {
           <img src={this.props.item.thumbnail} alt='thumbnail'/>
         </div>
         <div className='project-description'>{this.props.item.description}</div>
-        <div className='project-link'>Code:
-          <a href={this.props.item.codeLink}>
+        <div className='project-link'>
+          Code: <a href={this.props.item.codeLink}>
             {this.props.item.codeLink}</a>
         </div>
         {
           this.props.item.liveLink !== ""
-            ? <div className='project-link'>Live:
-              <a href={this.props.item.liveLink}>
-                {this.props.item.liveLink}</a>
-            </div>
+            ? <div className='project-link'>Live: <a href={this.props.item.liveLink}>
+                  {this.props.item.liveLink}</a>
+              </div>
             : ''
         }
       </div>)

@@ -18,7 +18,7 @@ function Contact() {
         <i className="fab fa-linkedin-in"></i>
       </a>
     </div>
-    <div></div>
+    <div className='emptySpace'></div>
     <div className='contact contact-item'>
       <a href='mailto:RomeoKilo125@gmail.com' target='blank'>
         <i className="fas fa-envelope"></i>
