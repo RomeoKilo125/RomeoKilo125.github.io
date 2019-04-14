@@ -3,7 +3,7 @@ a {
 }
 
 .contact {
-  background-color: #4c3b4d;
+  background: #4c3b4d;
   color: #c1bdb3;
   font-size: 1.5em;
 }
@@ -26,7 +26,7 @@ a {
   padding: 10px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: #c1bdb3;
+  background: #c1bdb3;
 }
 
 .emptySpace {
