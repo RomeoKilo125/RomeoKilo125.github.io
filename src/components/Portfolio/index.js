@@ -29,11 +29,11 @@ class Portfolio extends Component {
       <Header/>
       <Navbar>
         <NavItem handleClick={this.handleClick} id="about-tag" item={About} className={About === this.state.activeItem
-          ? 'nav nav-item about-item active-item'
-          : 'nav nav-item about-item'}/> {
+          ? 'nav-item about-item active-item'
+          : 'nav-item about-item'}/> {
             this.state.items.map(e => <NavItem handleClick={this.handleClick} key={this.state.items.indexOf(e)} item={e} className={e === this.state.activeItem
-              ? 'nav nav-item active-item'
-              : 'nav nav-item'}/>)
+              ? 'nav-item active-item'
+              : 'nav-item'}/>)
         }
       </Navbar>
       <DisplayArea item={this.state.activeItem}/>

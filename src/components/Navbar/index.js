@@ -13,13 +13,17 @@ class Navbar extends Component {
   }
 
   navToggle = () => {
-    this.setState({visible: this.state.visible === 'on' ? 'off' : 'on'})
+    this.setState({
+      visible: this.state.visible === 'on'
+        ? 'off'
+        : 'on'
+    })
   }
 
   render() {
-    let nav_class = `nav navbar ${this.state.visible}`
+    let nav_class = `navbar ${this.state.visible}`
     return (<div>
-      <FontAwesomeIcon icon={faBars} className='nav-icon' onClick={this.navToggle}/>
+      <div className='nav-icon' onClick={this.navToggle}><FontAwesomeIcon icon={faBars}/></div>
       <div className={nav_class} onClick={this.navToggle}>{this.props.children}</div>
     </div>)
   }

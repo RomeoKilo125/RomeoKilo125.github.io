@@ -1,16 +1,15 @@
+
 .nav-icon {
   display: block;
-  background-color: #4c3b4d;
+  background: #4c3b4d;
   color: #c1bdb3;
   font-size: 2em;
-  margin: 0 auto;
-  padding: 2px;
+  text-align: center;
+  padding: 5px;
 }
 
-.nav {
-  background: #edc79b;
-  color: #000000;
-  font-family: inherit;
+.nav-icon:hover {
+  cursor: pointer;
 }
 
 .navbar {
@@ -20,30 +19,16 @@
   font-size: 1.5em;
 }
 
-.navbar.off{
+.navbar.off {
   max-height: 0;
   overflow: hidden;
-  transition: max-height .5s;
+  transition: max-height .25s;
 }
 
-.navbar.on{
+.navbar.on {
   max-height: 100%;
   overflow: hidden;
-  transition: max-height .5s;
-}
-
-.nav-item {
-  text-align: center;
-  padding: 10px 0;
-  border: solid #000000 1px;
-}
-
-.active-item {
-  background: #bdc696;
-}
-
-.about-item {
-  /* background: #7f7979; */
+  transition: max-height .25s;
 }
 
 @media only screen and (min-width: 768px) {
@@ -55,5 +40,4 @@
     display: flex !important;
     max-height: 100% !important;
   }
-
 }
