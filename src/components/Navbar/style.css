@@ -1,18 +1,39 @@
+.nav-icon {
+  display: block;
+  background-color: #4c3b4d;
+  color: #c1bdb3;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 2px;
+}
+
 .nav {
-background: #edc79b;
-color: #000000;
-font-family: inherit;
+  background: #edc79b;
+  color: #000000;
+  font-family: inherit;
 }
 
 .navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 1.5em;
+}
+
+.navbar.off{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s;
+}
+
+.navbar.on{
+  max-height: 100%;
+  overflow: hidden;
+  transition: max-height .5s;
 }
 
 .nav-item {
   text-align: center;
-  font-size: 1.5em;
   padding: 10px 0;
   border: solid #000000 1px;
 }
@@ -26,5 +47,13 @@ font-family: inherit;
 }
 
 @media only screen and (min-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+
+  .navbar {
+    display: flex !important;
+    max-height: 100% !important;
+  }
 
 }
