@@ -2,54 +2,59 @@
   color: #edc79b;
 }
 
-.about-img {
-  width: 80%;
+.profilePic {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img{
+  width: 70%;
   border-radius: 50%;
-  margin: 25px;
+  margin: 20px;
 }
 
 .display {
   background: #514e4e;
   color: #c1bdb3;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .display-about {
   display: grid;
-  text-align: center;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .display-project {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 1em;
   text-align: center;
   width: 100%;
 }
 
 .project-name {
-  /* font-size: 2em; */
+  font-size: 1.5em;
+  margin: 10px auto;
 }
 
 .project-thumbnail {
   align-self: center;
 }
 
-.project-thumbnail video {
+.project-thumbnail img, video {
   width: 90%;
 }
 
-.project-description {
-}
-
-
 @media only screen and (min-width: 768px) {
-  .display {}
-
-  .display-about {}
+  .display {
+    font-size: 1.5em;
+  }
 
   .about-img {
     width: 400px;
-    margin: 25px;
+    height: 400px;
   }
 
   .display-project {
@@ -66,8 +71,9 @@
     align-self: center;
   }
 
-  .project-thumbnail video {
-    width: 500px;
+  .project-thumbnail img, video {
+    width: auto;
+    max-width: 500px;
   }
 
   .project-description {

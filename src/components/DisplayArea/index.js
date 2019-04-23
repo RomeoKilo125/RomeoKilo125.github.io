@@ -13,7 +13,7 @@ class DisplayArea extends Component {
         <div className='bio'>{this.props.item.bio}</div>
       </div>
       : <div className='display display-project'>
-        <div className='project-name'>{this.props.item.thumbnail}</div>
+        <div className='project-name'>{this.props.item.name}</div>
         <div className='project-thumbnail'>
           <img src={this.props.item.thumbnail} alt='thumbnail'/>
         </div>
