@@ -8,7 +8,7 @@
   padding: 5px;
 }
 
-.nav-icon:hover {
+.nav-icon:hover, .navbar:hover {
   cursor: pointer;
 }
 
