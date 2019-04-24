@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import ReactPlayer from 'react-player'
 import './style.css'
 
 class DisplayArea extends Component {
@@ -15,7 +16,7 @@ class DisplayArea extends Component {
       : <div className='display display-project'>
         <div className='project-name'>{this.props.item.name}</div>
         <div className='project-thumbnail'>
-          <img src={this.props.item.thumbnail} alt='thumbnail'/>
+          <ReactPlayer className='embedded-video' url={this.props.item.thumbnail} controls width='auto' height='auto'/>
         </div>
         <div className='project-description'>{this.props.item.description}</div>
         <div className='project-link'>
