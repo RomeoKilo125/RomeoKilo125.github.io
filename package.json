@@ -1,11 +1,13 @@
 {
-  "name": "react-portfolio",
+  "name": "RomeoKilo125.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://romeokilo125.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-player": "^1.11.0",
@@ -14,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
