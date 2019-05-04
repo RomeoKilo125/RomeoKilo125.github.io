@@ -8,15 +8,22 @@
 }
 
 .about-img{
-  width: 70%;
   border-radius: 50%;
   margin: 20px;
+  width: 75vw;
+}
+
+.about-img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .display {
   background: #514e4e;
   color: #c1bdb3;
   font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 .display-about, .project-description {

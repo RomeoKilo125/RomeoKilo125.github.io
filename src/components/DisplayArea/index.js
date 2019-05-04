@@ -16,20 +16,17 @@ class DisplayArea extends Component {
       : <div className='display display-project'>
         <div className='project-name'>{this.props.item.name}</div>
         <div className='project-thumbnail'>
-          <ReactPlayer className='embedded-video' url={this.props.item.thumbnail} controls width='auto' height='auto'/>
+          <ReactPlayer className='embedded-video' url={this.props.item.thumbnail} controls="controls" width='auto' height='auto'/>
         </div>
         <div className='project-description'>{this.props.item.description}</div>
         <div className='project-link'>
-          Code:
-          <a href={this.props.item.codeLink}>
-            {this.props.item.codeLink}</a>
+          Code: <a href={this.props.item.codeLink}>{this.props.item.codeLink}</a>
         </div>
         {
           this.props.item.liveLink !== ""
             ? <div className='project-link'>Live:
-                <a href={this.props.item.liveLink}>
-                  {this.props.item.liveLink}</a>
-              </div>
+              <a href={this.props.item.liveLink}>{this.props.item.liveLink}</a>
+            </div>
             : ''
         }
       </div>)
