@@ -3,8 +3,8 @@
 }
 
 .profilePic {
-  display: flex;
-  justify-content: center;
+  float: left;
+  shape-outside: circle(50%);
 }
 
 .about-img{
@@ -21,11 +21,14 @@
 }
 
 .display-about, .project-description {
-  display: grid;
-  text-align: justify;
+  text-align: right;
   width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   line-height: 1.1em;
+}
+
+.project-description {
+  display: grid;
 }
 
 .display-project {
