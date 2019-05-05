@@ -5,7 +5,7 @@ a {
 .contact {
   background: #4c3b4d;
   color: #c1bdb3;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .contact-grid {
@@ -18,8 +18,8 @@ a {
 }
 
 .contact-item {
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,13 +34,19 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+  .contact {
+    font-size: 1.5em;
+  }
+
   .contact-grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding: 10px;
-    height: 100%;
-    width: 100%;
   }
+
+  .contact-item {
+    height: 50px;
+    width: 50px;
+  }
+
   .emptySpace {
     display: block;
   }
