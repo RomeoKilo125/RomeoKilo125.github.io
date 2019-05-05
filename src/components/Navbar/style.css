@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: space-around;
   font-size: 1.5em;
-  transition: max-height .5s ease-in-out;
+  transition: max-height .5s 0s ease-in-out;
 }
 
 .navbar.off {
