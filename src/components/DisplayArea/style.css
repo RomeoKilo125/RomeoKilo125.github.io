@@ -14,12 +14,6 @@
   height: 200px;
 }
 
-.about-img:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-
 .display {
   background: #514e4e;
   color: #c1bdb3;
