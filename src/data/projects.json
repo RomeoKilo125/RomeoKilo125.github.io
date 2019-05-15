@@ -3,28 +3,21 @@
     "codeLink": "https://github.com/RomeoKilo125/rps-live",
     "liveLink": "https://RomeoKilo125.github.io/rps-live/",
     "description": "Rock Paper Scissors, the advanced course, used to demonstrate Google’s Firebase, jQuery, and atomic CSS. Now with basic live chat!",
-    "thumbnail": "http://placehold.jp/24/99cc99/993333/500x500.png"
+    "thumbnail": "https://youtu.be/Rtj0BmPRRhw"
   },
   {
     "name": "Concentration",
     "codeLink": "https://github.com/RomeoKilo125/concentration",
     "liveLink": "https://RomeoKilo125.github.io/concentration",
     "description": "A front-end React game to demonstrate the use of props and state. With a little CSS sugar thrown in.",
-    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
-  },
-  {
-    "name": "Code Signal Solutions",
-    "codeLink": "https://github.com/RomeoKilo125/code-signal",
-    "liveLink": "",
-    "description": "A GitHub repo to hold solutions (good or bad) to exercises from CodeSignal.com and CodeWars.com",
-    "thumbnail": "http://placehold.jp/24/9999cc/993333/500x500.png"
+    "thumbnail": "https://youtu.be/1Z40BTIdPZc"
   },
   {
     "name": "Trivia Game",
     "codeLink": "https://github.com/RomeoKilo125/trivia-game",
     "liveLink": "https://RomeoKilo125.github.io/trivia-game/",
     "description": "A trivia game in the style of Who Wants to be a Millionaire",
-    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
+    "thumbnail": "https://youtu.be/yXJDg8jmvag"
   },
   {
     "name": "Node Language Recognition",
@@ -38,7 +31,7 @@
     "codeLink": "https://github.com/RomeoKilo125/giphy-api",
     "liveLink": "https://RomeoKilo125.github.io/giphy-api/",
     "description": "a quick demo of how the giphy api works",
-    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
+    "thumbnail": "https://youtu.be/Wq9b6wx04lY"
   },
   {
     "name": "Avatar Friend Finder",
@@ -52,7 +45,7 @@
     "codeLink": "https://github.com/RomeoKilo125/bamazon",
     "liveLink": "",
     "description": "A back end, Node and MySQL app that demonstrates the setup of a simple retail database. Operated from the command line, this application consists of 3 separate components of a larger whole. Demo video in repo.",
-    "thumbnail": "https://www.youtube.com/embed/-ycWOWYrW7Q"
+    "thumbnail": "https://youtu.be/-ycWOWYrW7Q"
   },
   {
     "name": "Burger Restaurant",
@@ -81,5 +74,12 @@
     "liveLink": "https://RomeoKilo125.github.io/hangman-game",
     "description": "A basic hangman game",
     "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
+  },
+  {
+    "name": "Code Signal Solutions",
+    "codeLink": "https://github.com/RomeoKilo125/code-signal",
+    "liveLink": "",
+    "description": "A GitHub repo to hold solutions (good or bad) to exercises from CodeSignal.com and CodeWars.com",
+    "thumbnail": "http://placehold.jp/24/9999cc/993333/500x500.png"
   }
 ]
