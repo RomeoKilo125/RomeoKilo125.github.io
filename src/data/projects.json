@@ -27,13 +27,6 @@
     "thumbnail": "https://youtu.be/yXJDg8jmvag"
   },
   {
-    "name": "Node Language Recognition",
-    "codeLink": "https://github.com/RomeoKilo125/liri",
-    "liveLink": "",
-    "description": "A basic twitter bot",
-    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
-  },
-  {
     "name": "Giphy API Demo",
     "codeLink": "https://github.com/RomeoKilo125/giphy-api",
     "liveLink": "https://RomeoKilo125.github.io/giphy-api/",
