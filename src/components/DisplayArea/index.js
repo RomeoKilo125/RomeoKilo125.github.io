@@ -20,11 +20,11 @@ class DisplayArea extends Component {
         </div>
         <div className='project-description'>{this.props.item.description}</div>
         <div className='project-link'>
-          <a href={this.props.item.codeLink}>Code Repo</a>
+          <a target="blank" href={this.props.item.codeLink}>Code Repo</a>
         </div>
         {
           this.props.item.liveLink !== ""
-            ? <div className='project-link'><a href={this.props.item.liveLink}>Live Project</a>
+            ? <div className='project-link'><a target="blank" href={this.props.item.liveLink}>Live Project</a>
             </div>
             : ''
         }
