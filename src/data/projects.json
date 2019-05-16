@@ -1,4 +1,11 @@
 [{
+    "name": "Code Signal Solutions",
+    "codeLink": "https://github.com/RomeoKilo125/code-signal",
+    "liveLink": "",
+    "description": "A GitHub repo to hold solutions (good or bad) to exercises from CodeSignal.com and CodeWars.com",
+    "thumbnail": "http://placehold.jp/24/9999cc/993333/500x500.png"
+  },
+  {
     "name": "Boulder Parchment Shears Wizard Dragon",
     "codeLink": "https://github.com/RomeoKilo125/rps-live",
     "liveLink": "https://RomeoKilo125.github.io/rps-live/",
@@ -67,12 +74,5 @@
     "liveLink": "https://RomeoKilo125.github.io/crystal-collector/",
     "description": "A number matching game with hidden values",
     "thumbnail": "https://youtu.be/lQB5EqrvORs"
-  },
-  {
-    "name": "Code Signal Solutions",
-    "codeLink": "https://github.com/RomeoKilo125/code-signal",
-    "liveLink": "",
-    "description": "A GitHub repo to hold solutions (good or bad) to exercises from CodeSignal.com and CodeWars.com",
-    "thumbnail": "http://placehold.jp/24/9999cc/993333/500x500.png"
   }
 ]
