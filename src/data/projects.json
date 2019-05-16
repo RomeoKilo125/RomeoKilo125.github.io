@@ -55,6 +55,13 @@
     "thumbnail": "https://youtu.be/NFYutZZFXW8"
   },
   {
+    "name": "Hangman",
+    "codeLink": "https://github.com/RomeoKilo125/hangman-game",
+    "liveLink": "https://RomeoKilo125.github.io/hangman-game",
+    "description": "A basic hangman game",
+    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
+  },
+  {
     "name": "Crystal Collector",
     "codeLink": "https://github.com/RomeoKilo125/crystal-collector",
     "liveLink": "https://RomeoKilo125.github.io/crystal-collector/",
