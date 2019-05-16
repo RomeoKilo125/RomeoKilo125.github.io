@@ -16,7 +16,7 @@ class DisplayArea extends Component {
       : <div className='display display-project'>
         <div className='project-name'>{this.props.item.name}</div>
         <div className='project-thumbnail'>
-          <ReactPlayer className='embedded-video' url={this.props.item.thumbnail} controls="controls" width='auto' height='auto'/>
+          <ReactPlayer className='embedded-video' url={this.props.item.thumbnail} controls="controls"/>
         </div>
         <div className='project-description'>{this.props.item.description}</div>
         <div className='project-link'>
