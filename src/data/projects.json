@@ -1,10 +1,4 @@
-[{
-    "name": "Code Signal Solutions",
-    "codeLink": "https://github.com/RomeoKilo125/code-signal",
-    "liveLink": "",
-    "description": "A GitHub repo to hold solutions (good or bad) to exercises from CodeSignal.com and CodeWars.com",
-    "thumbnail": "http://placehold.jp/24/9999cc/993333/500x500.png"
-  },
+[
   {
     "name": "Boulder Parchment Shears Wizard Dragon",
     "codeLink": "https://github.com/RomeoKilo125/rps-live",
@@ -53,13 +47,6 @@
     "liveLink": "https://secure-waters-40699.herokuapp.com/",
     "description": "custom order a burger",
     "thumbnail": "https://youtu.be/NFYutZZFXW8"
-  },
-  {
-    "name": "Hangman",
-    "codeLink": "https://github.com/RomeoKilo125/hangman-game",
-    "liveLink": "https://RomeoKilo125.github.io/hangman-game",
-    "description": "A basic hangman game",
-    "thumbnail": "http://placehold.jp/24/cc9999/993333/500x500.png"
   },
   {
     "name": "Crystal Collector",
