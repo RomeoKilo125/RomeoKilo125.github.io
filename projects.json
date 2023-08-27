@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Balance",
+    "repo-url":"/balance",
+    "tag-list":["mysql","react","node", "express","sqlite","pwa","d3"]
+  },
+  {
+    "name": "To the Brim",
+    "repo-url": "/to-the-brim",
+    "tag-list":["mysql", "next", "vercel", "typescript", "jest", "wcag 2.1", "ecommerce", "client content management"]
+  }
+
+]
