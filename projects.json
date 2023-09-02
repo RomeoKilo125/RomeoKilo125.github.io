@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Balance",
+    "repo-name":"balance",
+    "tag-list":["mysql","react","node", "express","sqlite","pwa","d3"]
+  },
+  {
+    "name": "To the Brim",
+    "repo-name": "to-the-brim",
+    "tag-list":["mysql", "next", "vercel", "typescript", "jest", "wcag 2.1", "ecommerce", "client content management", "express"]
+  },
+  {
+    "name": "TenForward.vip",
+    "repo-name": "hood-friends-vip",
+    "tag-list": ["mongodb", "nosql", "node", "express", "react", "graphql", "apollo", "web sockets", "sass"]
+  },
+  {
+    "name": "No Tales",
+    "repo-name": "no-tales",
+    "tag-list":["aws", "mariadb", "next", "sass"]
+  },
+  {
+    "name": "unnamed game show",
+    "repo-name": "feud",
+    "tag-list":["bootstrap", "vue", "web sockets", "mysql", "pwa", "sqlite"]
+  }
+
+]
